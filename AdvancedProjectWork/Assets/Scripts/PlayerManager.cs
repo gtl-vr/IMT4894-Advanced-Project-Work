@@ -48,21 +48,22 @@ public class PlayerManager : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Rotate(Vector3.up, Time.deltaTime * -_DEBUG_HEAD_SPEED);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Rotate(Vector3.up, Time.deltaTime * _DEBUG_HEAD_SPEED);
-        }
-        
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         if (Input.GetKey(KeyCode.P) || (SteamVR.active && SteamVR_Input._default.inActions.Teleport.GetStateDown(_batonHand)))
         {
             AddCharge(100);
         }
-        #endif
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Rotate(Vector3.up, Time.deltaTime * -_DEBUG_HEAD_SPEED);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(Vector3.up, Time.deltaTime * _DEBUG_HEAD_SPEED);
+        }
+#endif
 
 
         if (_currentCharge >= _maxBatonCharge)

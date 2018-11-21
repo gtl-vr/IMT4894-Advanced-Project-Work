@@ -43,7 +43,7 @@ public class FireflyManager : MonoBehaviour
         }
         if(_currentTarget == null)
         {
-            _currentTarget = _bossManager._bossObject.transform;
+            _currentTarget = _bossManager._bossContainer.transform;
         }
     }
 
