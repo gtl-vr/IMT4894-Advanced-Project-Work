@@ -14,6 +14,6 @@ MonoBehaviour:
   _attackMaterial: {fileID: 2100000, guid: 4ba046fb3753b604ab70d795aa96b0a8, type: 2}
   _attackSpeed: 3
   _telegraphAnimationTrigger: SpinAnimation
-  _attackChargeAmount: 40
+  _attackChargeAmount: 30
   _telegraphAudio: {fileID: 8300000, guid: e155607ccfd95644db554b1d7f78d9c7, type: 3}
   _audioScale: 10

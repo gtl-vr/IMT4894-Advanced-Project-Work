@@ -14,7 +14,6 @@ MonoBehaviour:
   _attackMaterial: {fileID: 2100000, guid: 95a3a79a72aa89f4dab8d6402dae9379, type: 2}
   _attackSpeed: 1.5
   _telegraphAnimationTrigger: 
-  _attackDamage: 0
   _attackChargeAmount: 20
   _telegraphAudio: {fileID: 0}
   _audioScale: 0

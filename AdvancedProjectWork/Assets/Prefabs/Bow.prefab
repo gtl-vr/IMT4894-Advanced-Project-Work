@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4187881724000222}
   - component: {fileID: 65719742179926562}
   - component: {fileID: 114629557478767206}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bow
   m_TagString: projectile
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4157208924396684}
   - component: {fileID: 33396220551404596}
   - component: {fileID: 23374491872278718}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4785800521184884}
   - component: {fileID: 33095021163391334}
   - component: {fileID: 23674116383165110}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,3 +217,4 @@ MonoBehaviour:
   _damageValue: 0
   _chargeValue: 10
   _targetTransform: {fileID: 0}
+  _bossManager: {fileID: 0}

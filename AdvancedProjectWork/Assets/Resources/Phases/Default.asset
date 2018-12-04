@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef9415977ca46514ebf70d35c30ffd73, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  _attackCooldown: 5
+  _containsMovement: 1
+  _movementSpeed: 1
+  _transitionFunctionName: 
+  _healthThreshold: {x: 41, y: 80}
+  _bossAttacks:
+  - {fileID: 11400000, guid: 5ed34cab26ac85543a24b684e03a7400, type: 2}
+  - {fileID: 11400000, guid: 39ac9e538451f1e4e8337b6e818429f6, type: 2}
+  - {fileID: 11400000, guid: 56e5d597e1a4469418de9eff912322b9, type: 2}
+  _randomAttackOrder: 1
+  _attackOrder: []

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewBossAttack", menuName = "Boss/Attack", order = 1)]
+[CreateAssetMenu(fileName = "NewBossAttack", menuName = "Boss/Attack", order = 2)]
 public class BossAttack : ScriptableObject {
     [Header("Visuals and Animation")]
     public Material _attackMaterial;

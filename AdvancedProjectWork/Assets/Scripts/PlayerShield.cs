@@ -18,7 +18,7 @@ public class PlayerShield : MonoBehaviour {
         {
             var projectile = other.gameObject.GetComponent<Projectile>();
             _playerManager.AddCharge(projectile._chargeValue);
-            other.gameObject.GetComponent<Projectile>().Destroy();
+            projectile.Destroy();
 
             _particleSystem.transform.position = other.transform.position;
             _particleSystem.Play();

@@ -15,12 +15,14 @@ public class Projectile : MonoBehaviour
     [HideInInspector] public BossManager _bossManager;
     private Vector3 _rotationAxis;
     private bool _translating;
+    private BoxCollider _collider;
 
     // Use this for initialization
     void Start()
     {
         _rotationAxis = new Vector3(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f)).normalized;
         _translating = true;
+        _collider = GetComponent<BoxCollider>();
     }
 
     // Update is called once per frame
@@ -36,6 +38,7 @@ public class Projectile : MonoBehaviour
     public void Destroy()
     {
         _translating = false;
+        _collider.enabled = false;
         StartCoroutine(DestructionAnimation());
     }
 
